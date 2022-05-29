@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Lucida Grande';
+}
+
+h1 {
+    text-align: center;
+}
+
+#board {
+    height: 300px;
+    width: 300px;
+
+}
+
+.row {
+    height: 32%;
+    text-align: center;
+    margin-top: 1%;
+}
+
+.cell {
+    border: 1px solid black;
+    width: 31.7%;
+    height: 100%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    justify-content: center;
+    line-height: 90px;
+    font-size: 60px;
+    border-radius: 20px;
+    background: radial-gradient(circle, darkgray, black);
+}
+
+#dashboard {
+    padding: 30px;
+    text-align: center;
+}
